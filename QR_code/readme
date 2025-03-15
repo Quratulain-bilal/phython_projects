@@ -1,0 +1,63 @@
+# QR Code Generator
+
+This is a simple Python script to generate a QR code for a given website link and save it as an image file.
+
+## Requirements
+
+- Python 3.x
+- `qrcode` library
+- `PIL` (Pillow) library (usually installed with `qrcode`)
+
+## Installation
+
+1. **Install Python**: Make sure you have Python 3.x installed on your system. You can download it from [python.org](https://www.python.org/).
+
+2. **Install the required libraries**:
+   ```bash
+   pip install qrcode[pil]
+Usage
+Clone the repository or download the script to your local machine.
+
+Modify the script:
+
+Open the script in a text editor.
+
+Replace the website_link variable with your desired website URL.
+
+python
+Copy
+website_link = "https://www.instagram.com/sas_here7?igsh=M2xvcWhkMWR3YjM3"
+Run the script:
+
+bash
+Copy
+python qr_code_generator.py
+Check the output:
+
+The script will generate a QR code and save it as website_qr.png in the same directory as the script.
+
+Example
+Here is an example of how to use the script:
+
+python
+Copy
+import qrcode
+
+# your website link
+website_link = "https://www.instagram.com/sas_here7?igsh=M2xvcWhkMWR3YjM3"
+
+# QR Code generate 
+qr = qrcode.make(website_link)
+
+# QR Code save 
+qr.save("website_qr.png")
+
+print("QR Code saved as website_qr.png")
+Output
+After running the script, you will find a file named website_qr.png in the same directory. This file contains the QR code for the specified website link.
+
+Contributing
+If you want to contribute to this project, feel free to fork the repository and submit a pull request.
+
+License
+This project is open-source and available under the MIT License.
