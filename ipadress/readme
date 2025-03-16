@@ -1,0 +1,75 @@
+markdown
+Copy
+# IP Address Finder
+
+A simple Python script to find your local and public IP address.
+
+## Usage
+
+1. Install dependencies:
+   ```bash
+   pip install requests
+Run the script:
+
+bash
+Copy
+python ip_finder.py
+Output
+Local IP: 192.168.x.x
+
+Public IP: xxx.xxx.xxx.xxx
+
+Copy
+
+---
+
+### Features:
+1. **Minimal**:
+2. **Easy to Understand**:
+3. **Lightweight**:
+
+---
+
+### Kaise Use Karein:
+1. Is `README.md` file ko apne project ke root folder mein save karein.
+2. Is file ko open karke dekh sakte hain ya GitHub/GitLab jaisi platforms par upload kar sakte hain.
+
+---
+
+Agar aur customize karna hai ya kuch aur add karna hai, toh bataiye! 😊
+english me bnai'
+Got it! Here's a short and simple README.md file in English:
+
+README.md
+markdown
+Copy
+# IP Address Finder
+
+A simple Python script to find your local and public IP address.
+
+## Requirements
+
+- Python 3.x
+- `requests` library
+
+## Installation
+
+1. Install the required library:
+   ```bash
+   pip install requests
+Download or clone the script.
+
+Usage
+Run the script using Python:
+
+bash
+Copy
+python ip_finder.py
+Output
+Local IP: Your machine's local IP address (e.g., 192.168.x.x).
+
+Public IP: Your machine's public IP address (e.g., xxx.xxx.xxx.xxx).
+
+
+---
+
