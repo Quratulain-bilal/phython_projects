@@ -1,0 +1,31 @@
+# 🌳 Turtle Recursive Tree
+
+## 🖥️ About this Project
+This project uses Python's **turtle module** to create a **recursive tree**. The tree grows using recursion, changing colors as it branches.
+
+## 📦 Installation
+To run this project, you need **Python** installed.
+
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/YourUsername/TurtleTreeProject.git
+Navigate to the project folder:
+sh
+Copy
+Edit
+cd TurtleTreeProject
+Run the script:
+sh
+Copy
+Edit
+python tree.py
+🚀 Features
+Recursive branching for natural tree-like growth
+Color-changing branches for better visualization
+Turtle graphics for fun animations
+📸 Screenshot
+(Upload a screenshot of the tree and add the image here)
+
+📜 License
+This project is open-source. Feel free to modify and share!
+
