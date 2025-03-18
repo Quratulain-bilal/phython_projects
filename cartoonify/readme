@@ -1,0 +1,44 @@
+# Cartoonify Image Using OpenCV
+
+This project applies a **cartoon effect** to an image using OpenCV in Python.
+
+## Features
+- Converts a real image into a cartoon-style image
+- Uses OpenCV's `cv2.stylization` function
+- Simple and lightweight script
+
+## Requirements
+Make sure you have Python installed, and install the required library:
+```sh
+pip install opencv-python
+```
+
+## Usage
+1. Place your image in the project folder and name it **image.jpg**
+2. Run the script:
+   ```sh
+   python cartoonify.py
+   ```
+3. The cartoonized image will be saved as **cartoon.jpg**
+
+## Code Explanation
+```python
+import cv2  # Import OpenCV
+
+img = cv2.imread("image.jpg")  # Read the image
+
+cartoon = cv2.stylization(img, sigma_s=150, sigma_r=0.25)  # Apply cartoon effect
+
+cv2.imwrite("cartoon.jpg", cartoon)  # Save the output image
+```
+
+## Output
+- The script takes an input image and applies a cartoon filter to it.
+- The processed image will be saved in the same directory.
+
+## Example
+**Input:** `image.jpg`
+**Output:** `cartoon.jpg`
+
+Enjoy cartoonizing your images! 🎨✨
+
