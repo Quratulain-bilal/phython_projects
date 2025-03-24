@@ -1,0 +1,44 @@
+
+
+Project: Python Internet Speed Tester
+(Personal Project)
+[Month/Year] - Present
+
+🔹 Developed a lightweight internet speed testing tool using Python that measures and displays download/upload speeds in Mbps
+🔹 Key Features & Achievements:
+
+Implemented in just 3 lines of efficient Python code using speedtest-cli library
+
+Provides real-time network performance metrics with 2 decimal precision
+
+Can be extended to log historical data or create speed test reports
+
+Demonstrates practical application of Python for network diagnostics
+
+🔹 Technical Stack: Python, speedtest-cli, CLI applications
+🔹 Code Snippet:
+
+python
+Copy
+import speedtest
+st = speedtest.Speedtest()
+print(f"Download: {st.download()/1_000_000:.2f} Mbps\nUpload: {st.upload()/1_000_000:.2f} Mbps")
+For a complete resume section, you could add this under:
+
+PROJECTS
+(if you have a projects section)
+
+or
+
+TECHNICAL SKILLS
+(as an example of Python applications)
+
+Would you like me to:
+
+Provide a full resume template including this?
+
+Adjust the technical depth for different job levels (entry-level, senior etc.)?
+
+Create a version with metrics/impact statements for corporate resumes?
+
+Let me know what would be most helpful for your job search! 🚀
