@@ -1,0 +1,61 @@
+# 🎨 Pencil Sketch Image Converter
+
+Transform any image into a **realistic pencil sketch** using OpenCV in Python! 🖼️✏️
+
+## 📌 Features
+✔️ Convert any image to a **hand-drawn pencil sketch**  
+✔️ Works **without AI models**  
+✔️ Simple, **fast, and efficient**  
+✔️ Perfect for **fun projects, digital art, and creative effects**  
+
+## 🛠️ Installation
+Make sure you have Python installed, then run:
+```bash
+pip install opencv-python
+```
+
+## 🚀 Usage
+Simply run the script with your image:
+```python
+import cv2
+
+# Load image
+img = cv2.imread("your_image.jpg")
+
+# Convert to grayscale
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+# Invert the grayscale image
+inverted = 255 - gray
+
+# Apply Gaussian blur
+blurred = cv2.GaussianBlur(inverted, (21, 21), 0)
+
+# Invert the blurred image
+inverted_blurred = 255 - blurred
+
+# Create the pencil sketch
+sketch = cv2.divide(gray, inverted_blurred, scale=256.0)
+
+# Save the sketch
+cv2.imwrite("pencil_sketch.jpg", sketch)
+
+print("✅ Pencil Sketch Created Successfully!")
+```
+
+## 📷 Example
+**Original Image:**  
+![Original](example.jpg)
+
+**Pencil Sketch Output:**  
+![Sketch](pencil_sketch.jpg)
+
+## 💡 How It Works
+1️⃣ **Convert Image to Grayscale** (removes colors)  
+2️⃣ **Invert Colors** (to create a negative effect)  
+3️⃣ **Apply Gaussian Blur** (to create smooth shading)  
+4️⃣ **Blend with Original Image** (to generate pencil effect)  
+
+## 🌟 Contribute & Share
+If you liked this project, feel free to ⭐ **star** the repository and share your amazing sketches! 🚀
+
