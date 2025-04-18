@@ -13,8 +13,7 @@ To use this project, you need to install the `art` module. Run the following com
 ```bash
 pip install art
 ```
-
-## Usage
+##Usage:
 Run the following Python script:
 ```python
 from art import text2art
